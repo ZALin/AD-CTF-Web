@@ -1,0 +1,176 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  margin: auto;
+}
+
+body {
+  background: #2c3338;
+  color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5em;
+  color: white;
+}
+
+h3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: red;
+}
+
+code {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    padding: 2px 4px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: #363b41;
+}
+
+ .jumbotron h1 {
+    font-size: 63px;
+    color: white;
+    text-shadow: 0px 5px 15px #000;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid >.navbar-header{
+    margin-right: 0;
+    margin-left: 0;
+}
+.container-fluid >.navbar-header>a{
+    color: #606468;
+    font-size: 23px;
+}
+.alert {
+  margin: auto;
+  color: #a94442;
+  background-color: #f2dede;
+  margin-top: 0.5em;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  -webkit-appearance: none;
+}
+
+.success {
+  margin: auto;
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  margin-top: 0.5em;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  -webkit-appearance: none;
+}
+
+
+after { clear: both; }
+
+#login {
+  margin: 10px auto;
+  width: 320px;
+}
+
+#login form {
+  margin: auto;
+  padding: 22px 44px 22px 44px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#login form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+#login form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 0.5em;
+  padding: 0 16px;
+  width: 245px;
+  height: 40px;
+}
+
+#login form input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 245px;
+  height: 40px;
+}
+
+#login form input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 0.5em;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #16aa56;
+}

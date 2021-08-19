@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /login.php
+Disallow: /config.php
+Allow: /dl.php
